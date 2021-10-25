@@ -3,27 +3,36 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AppTravel2/AppTravel/AppTravel/app/src/main/res/drawable/batikair_pic_background.xml" value="0.2635416666666667" />
+        <entry key="..\:/AppTravel2/AppTravel/AppTravel/app/src/main/res/drawable/garudaair_pic_background.xml" value="0.2635416666666667" />
+        <entry key="..\:/AppTravel2/AppTravel/AppTravel/app/src/main/res/drawable/ic_add.xml" value="0.22135416666666666" />
         <entry key="..\:/AppTravel2/AppTravel/AppTravel/app/src/main/res/drawable/ic_back.xml" value="0.20208333333333334" />
         <entry key="..\:/AppTravel2/AppTravel/AppTravel/app/src/main/res/layout/activity_add_flight.xml" value="0.3333333333333333" />
         <entry key="..\:/AppTravel2/AppTravel/AppTravel/app/src/main/res/layout/activity_add_train.xml" value="0.3671875" />
-        <entry key="..\:/AppTravel2/AppTravel/AppTravel/app/src/main/res/layout/activity_area.xml" value="0.17857142857142858" />
-        <entry key="..\:/AppTravel2/AppTravel/AppTravel/app/src/main/res/layout/activity_flight.xml" value="0.1" />
+        <entry key="..\:/AppTravel2/AppTravel/AppTravel/app/src/main/res/layout/activity_area.xml" value="0.33" />
+        <entry key="..\:/AppTravel2/AppTravel/AppTravel/app/src/main/res/layout/activity_flight.xml" value="0.33" />
         <entry key="..\:/AppTravel2/AppTravel/AppTravel/app/src/main/res/layout/activity_form_flight.xml" value="0.3671875" />
         <entry key="..\:/AppTravel2/AppTravel/AppTravel/app/src/main/res/layout/activity_form_train.xml" value="0.3671875" />
-        <entry key="..\:/AppTravel2/AppTravel/AppTravel/app/src/main/res/layout/activity_login.xml" value="0.2608695652173913" />
+        <entry key="..\:/AppTravel2/AppTravel/AppTravel/app/src/main/res/layout/activity_login.xml" value="0.22" />
         <entry key="..\:/AppTravel2/AppTravel/AppTravel/app/src/main/res/layout/activity_main.xml" value="0.22" />
-        <entry key="..\:/AppTravel2/AppTravel/AppTravel/app/src/main/res/layout/activity_profile.xml" value="0.24739583333333334" />
+        <entry key="..\:/AppTravel2/AppTravel/AppTravel/app/src/main/res/layout/activity_profile.xml" value="0.25" />
         <entry key="..\:/AppTravel2/AppTravel/AppTravel/app/src/main/res/layout/activity_registrasi.xml" value="0.3333333333333333" />
         <entry key="..\:/AppTravel2/AppTravel/AppTravel/app/src/main/res/layout/activity_row_data_flight.xml" value="0.33" />
         <entry key="..\:/AppTravel2/AppTravel/AppTravel/app/src/main/res/layout/activity_row_data_order.xml" value="0.3671875" />
         <entry key="..\:/AppTravel2/AppTravel/AppTravel/app/src/main/res/layout/activity_row_data_train.xml" value="0.3671875" />
         <entry key="..\:/AppTravel2/AppTravel/AppTravel/app/src/main/res/layout/activity_show_flight.xml" value="0.22" />
         <entry key="..\:/AppTravel2/AppTravel/AppTravel/app/src/main/res/layout/activity_show_order.xml" value="0.3671875" />
+        <entry key="..\:/AppTravel2/AppTravel/AppTravel/app/src/main/res/layout/activity_show_order_admin.xml" value="0.36666666666666664" />
         <entry key="..\:/AppTravel2/AppTravel/AppTravel/app/src/main/res/layout/activity_show_train.xml" value="0.3671875" />
         <entry key="..\:/AppTravel2/AppTravel/AppTravel/app/src/main/res/layout/activity_splash.xml" value="0.12228260869565218" />
-        <entry key="..\:/AppTravel2/AppTravel/AppTravel/app/src/main/res/layout/activity_transportation.xml" value="0.2608695652173913" />
+        <entry key="..\:/AppTravel2/AppTravel/AppTravel/app/src/main/res/layout/activity_train.xml" value="0.37864583333333335" />
+        <entry key="..\:/AppTravel2/AppTravel/AppTravel/app/src/main/res/layout/activity_transportation.xml" value="0.33" />
+        <entry key="..\:/AppTravel2/AppTravel/AppTravel/app/src/main/res/layout/activity_update_flight.xml" value="0.36666666666666664" />
+        <entry key="..\:/AppTravel2/AppTravel/AppTravel/app/src/main/res/layout/activity_update_train.xml" value="0.3385416666666667" />
         <entry key="..\:/AppTravel2/AppTravel/AppTravel/app/src/main/res/layout/areamaps.xml" value="0.24270833333333333" />
         <entry key="..\:/AppTravel2/AppTravel/AppTravel/app/src/main/res/layout/fragment_maps.xml" value="0.16302083333333334" />
+        <entry key="..\:/AppTravel2/AppTravel/AppTravel/app/src/main/res/layout/layout_loading.xml" value="0.36666666666666664" />
+        <entry key="..\:/AppTravel2/AppTravel/AppTravel/app/src/main/res/layout/layout_select_media.xml" value="0.36666666666666664" />
       </map>
     </option>
   </component>

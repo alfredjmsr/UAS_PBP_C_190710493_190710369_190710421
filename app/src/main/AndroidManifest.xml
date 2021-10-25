@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.p3lb.apptravel">
+    package="com.trv.apptravel">
 
     <!--
          The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
@@ -12,6 +12,7 @@
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.CAMERA"/>
 
@@ -22,7 +23,8 @@
         android:roundIcon="@mipmap/launcher_icon_foreground"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppTravel"
-        android:usesCleartextTraffic="true">
+        android:usesCleartextTraffic="true"
+        android:requestLegacyExternalStorage="true" >
 
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
@@ -39,10 +41,14 @@
         <activity android:name=".Transportation.TransportationActivity" />
         <activity android:name=".Flight.FlightActivity" />
         <activity android:name=".Flight.FlightFormActivity" />
+        <activity android:name=".Flight.ListFlightActivity" />
+        <activity android:name=".Flight.FlightUpdateDeleteActivity" />
         <activity android:name=".Flight.CreateFlightActivity" />
         <activity android:name=".Train.TrainActivity" />
         <activity android:name=".Train.TrainFormActivity" />
         <activity android:name=".Train.CreateTrainActivity" />
+        <activity android:name=".Train.ListTrainActivity" />
+        <activity android:name=".Train.TrainUpdateDeleteActivity" />
         <activity android:name=".MainActivity" />
         <activity android:name=".RegistrationActivity" />
         <activity android:name=".LoginActivity" />

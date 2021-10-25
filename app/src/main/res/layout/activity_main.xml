@@ -18,6 +18,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@drawable/shape"
+            android:layout_margin="10dp"
             android:padding="10dp"
             android:orientation="horizontal">
             <LinearLayout
@@ -83,10 +85,13 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/shape"
             android:orientation="vertical"
             android:padding="10dp">
             <RelativeLayout
                 android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
                 <LinearLayout
@@ -108,41 +113,68 @@
         </LinearLayout>
 
 
-
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:padding="10dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/shape"
             android:orientation="vertical">
-            <com.google.android.material.button.MaterialButton
-                android:id="@+id/btnTransportation"
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Transportation"
-                android:backgroundTint="@color/button"
-                android:drawableTop="@drawable/ic_transportation"/>
-            <com.google.android.material.button.MaterialButton
-                android:id="@+id/btnArea"
+                android:layout_height="match_parent"
+                android:padding="10dp"
+                android:orientation="horizontal">
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnTransportation"
+                    android:layout_weight="1"
+                    android:padding="20dp"
+                    android:layout_margin="10dp"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Service"
+                    android:backgroundTint="@color/button"
+                    android:drawableTop="@drawable/ic_transportation"/>
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnArea"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:padding="20dp"
+                    android:layout_margin="10dp"
+                    android:layout_height="wrap_content"
+                    android:text="Area"
+                    android:backgroundTint="@color/button"
+                    android:drawableTop="@drawable/ic_area"/>
+            </LinearLayout>
+
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Area"
-                android:backgroundTint="@color/button"
-                android:drawableTop="@drawable/ic_area"/>
-            <com.google.android.material.button.MaterialButton
-                android:id="@+id/btnUser"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="USER"
-                android:backgroundTint="@color/button"
-                android:drawableTop="@drawable/ic_user"/>
-            <com.google.android.material.button.MaterialButton
-                android:id="@+id/btnMyorder"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="MY ORDER"
-                android:backgroundTint="@color/button"
-                android:drawableTop="@drawable/ic_order"/>
+                android:layout_height="match_parent"
+                android:padding="10dp"
+                android:orientation="horizontal">
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnUser"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="USER"
+                    android:padding="20dp"
+                    android:layout_margin="10dp"
+                    android:backgroundTint="@color/button"
+                    android:drawableTop="@drawable/ic_user"/>
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnMyorder"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:padding="20dp"
+                    android:text="ORDER"
+                    android:layout_margin="10dp"
+                    android:backgroundTint="@color/button"
+                    android:drawableTop="@drawable/ic_order"/>
+            </LinearLayout>
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

@@ -44,129 +44,132 @@
             android:layout_marginBottom="30dp"
             />
         <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/name"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
+            app:placeholderTextColor="@color/white"
+            app:boxStrokeColor="@color/white"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:hint="Username"
-            android:textColorHint="@android:color/darker_gray"
-            app:boxBackgroundColor="@color/white"
-            app:boxCornerRadiusBottomEnd="5dp"
-            app:boxCornerRadiusBottomStart="5dp"
-            app:boxCornerRadiusTopEnd="5dp"
-            app:boxCornerRadiusTopStart="5dp"
-            app:boxStrokeColor="@color/background"
-            app:boxStrokeWidth="0dp"
-            app:hintTextColor="@color/white">
+            app:hintTextColor="@color/white"
 
+            app:boxBackgroundColor="@color/background"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="8dp"
+            android:hint="Username">
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/txtUsername"
+                android:textColor="@color/white"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="@color/black" />
+                android:inputType="text" />
 
         </com.google.android.material.textfield.TextInputLayout>
 
 
         <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/pass"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
+            app:placeholderTextColor="@color/white"
+            app:boxStrokeColor="@color/white"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:hint="Password"
-            android:textColorHint="@android:color/darker_gray"
-            app:boxBackgroundColor="@color/white"
-            app:boxCornerRadiusBottomEnd="5dp"
-            app:boxCornerRadiusBottomStart="5dp"
-            app:boxCornerRadiusTopEnd="5dp"
-            app:boxCornerRadiusTopStart="5dp"
-            app:boxStrokeColor="@color/background"
-            app:boxStrokeWidth="0dp"
             app:hintTextColor="@color/white"
-            app:endIconDrawable="@color/background"
+            app:boxBackgroundColor="@color/background"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="8dp"
             app:passwordToggleEnabled="true"
-            app:passwordToggleTint="@color/background">
-
+            app:passwordToggleTintMode="screen"
+            app:passwordToggleTint="@color/background"
+            android:hint="Password">
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/txtPassword"
+                android:textColor="@color/white"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="textPassword"
-                android:textColor="@color/black" />
+                android:inputType="textPassword" />
         </com.google.android.material.textfield.TextInputLayout>
-
         <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/confirmpass"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
+            app:placeholderTextColor="@color/white"
+            app:boxStrokeColor="@color/white"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:hint="Confirm Password"
-            android:textColorHint="@android:color/darker_gray"
-            app:boxBackgroundColor="@color/white"
-            app:boxCornerRadiusBottomEnd="5dp"
-            app:boxCornerRadiusBottomStart="5dp"
-            app:boxStrokeColor="@android:color/white"
-            app:boxCornerRadiusTopEnd="5dp"
-            app:boxCornerRadiusTopStart="5dp"
-            app:boxStrokeWidth="0dp"
             app:hintTextColor="@color/white"
-            app:endIconDrawable="@color/background"
+            app:boxBackgroundColor="@color/background"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="8dp"
             app:passwordToggleEnabled="true"
-            app:passwordToggleTint="@color/background">
-
+            app:passwordToggleTintMode="screen"
+            app:passwordToggleTint="@color/background"
+            android:hint="Confirm Password">
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/txtConfirmPassword"
+                android:textColor="@color/white"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="textPassword"
-                android:textColor="@color/black" />
+                android:inputType="textPassword" />
         </com.google.android.material.textfield.TextInputLayout>
         <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/email"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
+            app:placeholderTextColor="@color/white"
+            app:boxStrokeColor="@color/white"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:hint="Phonenumber"
-            android:textColorHint="@android:color/darker_gray"
-            app:boxBackgroundColor="@color/white"
-            app:boxCornerRadiusBottomEnd="5dp"
-            app:boxCornerRadiusBottomStart="5dp"
-            app:boxCornerRadiusTopEnd="5dp"
-            app:boxCornerRadiusTopStart="5dp"
-            app:boxStrokeColor="@color/background"
-            app:boxStrokeWidth="0dp"
-            app:hintTextColor="@color/white">
+            app:hintTextColor="@color/white"
 
+            app:boxBackgroundColor="@color/background"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="8dp"
+            android:hint="Email">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txtEmail"
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/number"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            app:placeholderTextColor="@color/white"
+            app:boxStrokeColor="@color/white"
+            android:layout_height="wrap_content"
+            app:hintTextColor="@color/white"
+            app:boxBackgroundColor="@color/background"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="8dp"
+            android:hint="Phonenumber">
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/txtPhonenumber"
-                android:inputType="number"
+                android:textColor="@color/white"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="@color/black" />
+                android:inputType="number" />
 
         </com.google.android.material.textfield.TextInputLayout>
         <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/date"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
+            app:placeholderTextColor="@color/white"
+            app:boxStrokeColor="@color/white"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:hint="Birthdate (DD-MM-YYYY)"
-            android:textColorHint="@android:color/darker_gray"
-            app:boxBackgroundColor="@color/white"
-            app:boxCornerRadiusBottomEnd="5dp"
-            app:boxCornerRadiusBottomStart="5dp"
-            app:boxCornerRadiusTopEnd="5dp"
-            app:boxCornerRadiusTopStart="5dp"
-            app:boxStrokeColor="@color/background"
-            app:boxStrokeWidth="0dp"
-            app:hintTextColor="@color/white">
+            app:hintTextColor="@color/white"
 
+            app:boxBackgroundColor="@color/background"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="8dp"
+            android:hint="Birthdate">
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/txtBirthdate"
-                android:inputType="date"
+                android:textColor="@color/white"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="@color/black" />
+                android:inputType="date" />
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -192,7 +195,7 @@
             android:layout_marginBottom="30dp"
             android:gravity="center"
             android:padding="10dp"
-            android:text="A L R E A D Y   H A V E   A N   A C C O U N T  ?   C L I C K   H E R E"
+            android:text="L  O  G  I  N"
             android:textColor="@color/white"
             android:textSize="10dp"
             android:textStyle="bold"

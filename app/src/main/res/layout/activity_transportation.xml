@@ -52,6 +52,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:background="@drawable/shape"
                 android:backgroundTint="@color/button"
                 android:drawableTop="@drawable/ic_transportation"
                 android:text="FLIGHT" />
@@ -59,6 +60,8 @@
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btnTrain"
                 android:layout_weight="1"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/shape"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="TRAIN"
